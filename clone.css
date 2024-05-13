@@ -29,12 +29,31 @@ body{
 }
 
 .toogle-btn{
-    width: 20;
+    width: 20px;
     height: 10px;
     position: relative;
     cursor:pointer;
     background: #000;
 }
 
+.toogle-btn span{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    background:  #979797;
 
+}
+
+.toogle-btn span:nth-child(1){
+    top: 0;
+
+}
+
+.toogle-btn span:nth-child(3){
+    top: 100%;
+
+    
+}
 
